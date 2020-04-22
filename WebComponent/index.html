@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="my.css">
+    <script src="my.js"></script>
+  </head>
+<body>
+
+
+<div class="input-area">
+  <div class="input-heading">Create Account</div>
+  <form action="#">
+  <input class="input-style" type="text" name='Username' id='Username' onchange="checkUsername()" placeholder='Username'>
+  <input class="input-style" type="text" name='Email' id='Email' onchange="checkEmail()" placeholder='Email Address'>
+  <input class="input-style" type="password" name='Password' id='Password' onchange="checkPasswords()" placeholder='Password'>
+  <input class="input-style" type="password" name='PasswordConf' id='PasswordConf' onchange="checkPasswords()" placeholder='Confirm Password'>
+  <input class="input-submit" type="submit" id="mySubmit" disabled>
+  <div class="reg-status" id="status">All Fields Are Required<div>
+  </form>
+</div>
+
+</body>
+</html>
